@@ -1,0 +1,109 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+#HomePage {
+  width: 100%;
+  height: 90vh;
+  background-color: #000000cc;
+  display: flex;
+
+}
+
+.HomePage_Content {
+  width: 60%;
+  /* background-color: rgb(5, 233, 157); */
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-top: 140px;
+  padding-left: 100px;
+  gap: 10px;
+}
+
+.HomePage_Content > span {
+  font-size: 35px;
+}
+
+.HomePage_Content > h1 {
+  font-size: 50px;
+}
+
+.HomePage_Content > h3 {
+  font-size: 30px;
+}
+
+.HomePage_Content > p {
+  font-size: 18px;
+}
+
+.HomePage_icons{
+  width: 25%;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aqua;
+  gap: 30px;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.HomePage_icons a{
+  color: aqua;
+}
+
+/* .HomePage_btns {
+  width: 25%;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: aqua;
+  font-size: 15px;
+} */
+
+.download {
+  width: 25%;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: aqua;
+  color: black;
+  font-size: 20px;
+}
+
+/* Design right side of the about page */
+
+.HomePage_img {
+  width: 40%;
+  height: 625px;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HomePage_img div {
+  height: 60%;
+  width: 60%;
+  background-color: aliceblue;
+  border-radius: 50%;
+}
+.HomePage_img div > img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
